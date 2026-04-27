@@ -1,0 +1,31 @@
+---
+description: Rules for Streamlit app development
+alwaysApply: false
+---
+
+For Streamlit app work:
+
+UI:
+- Keep the app simple and demo-friendly
+- Prioritize clarity over visual complexity
+- Use business-friendly language
+- Use exactly two tabs: `Single Prediction` and `Batch Prediction`
+- Prefer accessible, colorblind-friendly styling
+
+Functionality:
+- Load model artifacts from `artifacts/models/`
+- Validate user inputs
+- Handle missing or invalid values safely
+- Avoid hardcoded machine-specific paths
+- Fail gracefully with clear messages
+
+The app should include:
+- Single customer churn prediction
+- Batch CSV prediction
+- Model notes and limitations within the existing two-tab layout
+
+Production simulation:
+- Show model version when possible
+- Add prediction timestamp when possible
+- Save prediction logs to `artifacts/logs/`
+- Provide a ready-to-use sample batch input file when the task asks for batch prediction

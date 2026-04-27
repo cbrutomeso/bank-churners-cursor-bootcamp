@@ -1,0 +1,35 @@
+---
+description: Core project behavior for the Bank Churn Cursor Bootcamp
+alwaysApply: true
+---
+
+Before making significant changes:
+- Read `README.md`
+- Read `AGENTS.md`
+- Read `docs/03_success_criteria.md`
+- Read the relevant task file in `docs/`
+
+Always:
+- Propose a short plan before implementing
+- Keep changes modular and readable
+- Reuse the existing project structure
+- Validate outputs against the success criteria
+- Pin dependency versions exactly in `requirements.txt` when adding or updating libraries
+- Create the project virtual environment before running project code if `.venv` does not exist yet
+- Keep `requirements.txt` aligned with the real dependencies used by the project
+
+Never:
+- Invent data, metrics, or conclusions
+- Create alternative top-level directories
+- Ignore missing data or possible data leakage
+- Mix exploratory notebook code with reusable production logic
+
+Directory rules:
+- Raw data goes in `data/raw/`
+- Processed data goes in `data/processed/`
+- Reusable code goes in `src/`
+- Models go in `artifacts/models/`
+- Predictions go in `artifacts/predictions/`
+- Logs go in `artifacts/logs/`
+- Figures and tables go in `reports/`
+- Streamlit app code goes in `app/`

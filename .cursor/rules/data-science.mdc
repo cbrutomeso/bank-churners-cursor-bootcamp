@@ -1,0 +1,37 @@
+---
+description: Rules for EDA, feature engineering, and modeling
+alwaysApply: false
+---
+
+For data science tasks:
+
+Structure:
+- Use notebooks for exploration
+- Move reusable logic to `src/`
+- Avoid duplicating preprocessing logic across notebooks and scripts
+
+EDA:
+- Include data quality checks
+- Include target distribution analysis
+- Include univariate and bivariate analysis
+- Add short markdown interpretations for important charts
+- Separate observations from hypotheses
+
+Modeling:
+- Start with a simple baseline model
+- Use proper train/validation/test discipline
+- Preserve target class proportions during splitting
+- Compare models fairly
+- Evaluate on holdout data
+- Present model comparisons with organized tables and clear charts
+- Make the final model and threshold choice explicit
+- Include feature importance or equivalent interpretation for the final selected model
+- Include threshold analysis when relevant
+- Report limitations clearly
+
+Always check:
+- target leakage
+- class imbalance
+- missing values
+- categorical encoding consistency
+- reproducibility via random seeds

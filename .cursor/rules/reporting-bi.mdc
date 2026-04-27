@@ -1,0 +1,25 @@
+---
+description: Rules for reporting and BI-ready outputs
+alwaysApply: false
+---
+
+For reporting and BI tasks:
+
+Focus:
+- Business clarity over technical detail
+- Executive-friendly language
+- Clear KPIs and consistent naming
+
+Always:
+- Separate descriptive insights from model-based insights
+- Avoid overstating causality
+- Mention assumptions and limitations
+- Save BI-ready tables in `reports/tables/`
+- Save figures in `reports/figures/`
+
+Good outputs include:
+- churn rate summary
+- segment-level churn analysis
+- model metric summary
+- high-risk customer export
+- executive summary
