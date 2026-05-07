@@ -5,7 +5,7 @@ alwaysApply: false
 
 For Streamlit app work:
 
-UI:
+UI :
 - Keep the app simple and demo-friendly
 - Prioritize clarity over visual complexity
 - Use business-friendly language
