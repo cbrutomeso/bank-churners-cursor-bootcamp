@@ -29,8 +29,8 @@ For each task:
 ## Key Principles
 
 * Plan before coding
-* Keep notebooks for exploration only
-* Move reusable logic to `src/`
+* Use notebooks for EDA, modeling, and BI/reporting analysis
+* Keep notebooks organized, reproducible, and presentation-ready
 * Validate outputs explicitly
 * Prefer simple solutions first
 
@@ -42,6 +42,8 @@ By the end:
 
 * EDA notebook with insights
 * Trained churn model
+* Modeling notebook with evaluation and interpretation
+* BI/reporting notebook with generated business outputs
 * Streamlit app
 * BI-ready tables and figures
 * Executive summary

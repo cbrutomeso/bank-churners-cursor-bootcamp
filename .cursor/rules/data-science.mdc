@@ -6,9 +6,9 @@ alwaysApply: false
 For data science tasks:
 
 Structure:
-- Use notebooks for exploration
-- Move reusable logic to `src/`
-- Avoid duplicating preprocessing logic across notebooks and scripts
+- Use notebooks for EDA, feature engineering decisions, modeling, and reporting analysis
+- Keep notebook sections clear, reproducible, and presentation-ready
+- Avoid duplicating preprocessing logic unnecessarily across notebooks
 
 EDA:
 - Include data quality checks

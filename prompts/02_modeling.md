@@ -15,10 +15,10 @@ Then propose a structured modeling plan for this repository.
 
 Requirements:
 1. Cover the full flow: split, preprocessing, baseline, advanced models, Optuna tuning, evaluation, threshold selection, and final model selection
-2. Explain what will live in `notebooks/` vs reusable code in `src/`
+2. Explain how the modeling notebook will be structured and how preprocessing will stay reproducible
 3. List the exact files expected to be created or updated
 4. List the expected outputs in `artifacts/`, `reports/`, and any prediction exports
-5. Explicitly address leakage prevention, reproducibility, train/inference consistency, and any dependency updates required in `requirements.txt`
+5. Explicitly address leakage prevention, reproducibility, train/inference consistency, the saved model or pipeline artifact, and any dependency updates required in `requirements.txt`
 6. Do not write code yet
 
 Keep the plan explicit, repository-aware, and aligned with the task requirements.

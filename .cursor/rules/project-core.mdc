@@ -22,12 +22,12 @@ Never:
 - Invent data, metrics, or conclusions
 - Create alternative top-level directories
 - Ignore missing data or possible data leakage
-- Mix exploratory notebook code with reusable production logic
+- Leave notebook workflows disorganized or hard to reproduce
 
 Directory rules:
 - Raw data goes in `data/raw/`
 - Processed data goes in `data/processed/`
-- Reusable code goes in `src/`
+- EDA, modeling, and BI notebooks go in `notebooks/`
 - Models go in `artifacts/models/`
 - Predictions go in `artifacts/predictions/`
 - Logs go in `artifacts/logs/`

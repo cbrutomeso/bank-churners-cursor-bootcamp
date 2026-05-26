@@ -8,6 +8,7 @@ Prepare outputs for business reporting.
 
 ## Deliverables
 
+* Notebook: `notebooks/03_bi_reporting.ipynb`
 * BI-ready tables in `reports/tables/`
 * BI-ready figures in `reports/figures/`
 * Executive summary in `reports/executive_summary.md`
@@ -122,6 +123,7 @@ Suggested sections:
 
 ## Notes
 
+* Generate BI outputs from the BI/reporting notebook
 * Separate descriptive vs model-based insights
 * Focus on clarity
 * Avoid causal claims unless they are explicitly supported

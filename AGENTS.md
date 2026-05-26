@@ -76,15 +76,15 @@ For any non-trivial task, follow this sequence:
 * Avoid duplication
 * Do not hardcode paths
 * Use existing project structure
-* Write code that can be reused from `src/`
+* Keep notebook code organized in clear, reusable sections when working on EDA, modeling, or BI
 
 ---
 
-## Notebooks vs Code
+## Notebooks
 
-* Notebooks are for exploration only
-* Reusable logic must be moved to `src/`
-* Avoid duplicating logic across notebooks and scripts
+* EDA, feature engineering, modeling, and BI/reporting work should live in notebooks
+* Keep notebooks readable, reproducible, and presentation-ready
+* Avoid unnecessary duplication across notebooks
 
 ---
 
@@ -127,7 +127,7 @@ For any non-trivial task, follow this sequence:
 
 ## Anti-Patterns to Avoid
 
-* Mixing exploration and production code
+* Leaving notebooks disorganized or hard to reproduce
 * Creating unnecessary folders
 * Rewriting existing logic without reason
 * Making assumptions without stating them
