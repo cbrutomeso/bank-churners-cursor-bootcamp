@@ -24,19 +24,24 @@ For any non-trivial task, follow this sequence:
    * Propose a clear step-by-step plan (5–8 steps)
    * Do NOT write code yet
 
-3. Execute
+3. Branch
+
+   * Before developing each new feature, create or switch to a dedicated feature branch
+   * Do not start feature implementation directly on the base branch unless the user explicitly requests it
+
+4. Execute
 
    * Implement the solution step by step
    * Keep changes modular and readable
    * Avoid large, unstructured edits
 
-4. Validate
+5. Validate
 
    * Ensure code runs end-to-end
    * Check assumptions explicitly
    * Verify outputs against success criteria
 
-5. Summarize
+6. Summarize
 
    * What was done
    * What remains

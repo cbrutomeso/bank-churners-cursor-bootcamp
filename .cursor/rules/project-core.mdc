@@ -11,6 +11,7 @@ Before making significant changes:
 
 Always:
 - Propose a short plan before implementing
+- Create or switch to a dedicated feature branch before developing each new feature
 - Keep changes modular and readable
 - Reuse the existing project structure
 - Validate outputs against the success criteria

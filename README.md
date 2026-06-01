@@ -37,9 +37,10 @@ For every task:
 
 1. Read the relevant task file in `docs/`
 2. Ask the AI to propose a plan
-3. Implement the solution step by step
-4. Validate results against success criteria
-5. Store outputs in the appropriate folders
+3. Create or switch to a dedicated feature branch before developing a new feature
+4. Implement the solution step by step
+5. Validate results against success criteria
+6. Store outputs in the appropriate folders
 
 ---
 
