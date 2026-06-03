@@ -21,15 +21,11 @@ Build a churn prediction model.
 
 * Notebook: `notebooks/02_modeling.ipynb`
 
-* Reusable code in `src/`:
-
-  * preprocessing
-  * training
-  * prediction
-
 * Saved model in `artifacts/models/`
 
 * Predictions saved in `artifacts/predictions/`
+
+* Reporting tables and figures saved in `reports/`
 
 * Evaluation summary:
 
@@ -61,7 +57,8 @@ Build a churn prediction model.
 
 * Use the candidate features and preprocessing decisions identified during EDA
 * If you add new transformations during modeling, justify them clearly
-* Keep reusable preprocessing logic in `src/`
+* Keep preprocessing steps clear and reproducible inside the modeling notebook
+* Save a self-contained model or pipeline artifact when possible so the Streamlit app can load it without relying on notebook state
 
 ---
 
@@ -162,11 +159,13 @@ The modeling notebook should be clear, organized, and presentation-ready.
 It should explicitly include:
 
 * a short section describing the train / validation / test split and the use of stratification
+* a preprocessing section that documents feature selection, encoding, and transformations
 * a model-by-model comparison section with clean tables
 * a visual comparison section for the main metrics
 * a final model selection section
 * a final threshold selection section
 * a final feature importance section for the chosen model
+* a short inference contract describing the columns expected by the saved model or pipeline
 
 Avoid leaving raw metric dictionaries or scattered printed outputs as the main presentation format.
 

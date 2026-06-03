@@ -37,9 +37,10 @@ For every task:
 
 1. Read the relevant task file in `docs/`
 2. Ask the AI to propose a plan
-3. Implement the solution step by step
-4. Validate results against success criteria
-5. Store outputs in the appropriate folders
+3. Create or switch to a dedicated feature branch before developing a new feature
+4. Implement the solution step by step
+5. Validate results against success criteria
+6. Store outputs in the appropriate folders
 
 ---
 
@@ -50,8 +51,7 @@ You must follow this structure:
 * `docs/` → task definitions and context
 * `data/raw/` → original dataset (read-only)
 * `data/processed/` → cleaned data generated during the workflow
-* `src/` → reusable code (data, models, pipelines)
-* `notebooks/` → exploration and analysis only
+* `notebooks/` → EDA, feature engineering decisions, modeling, and BI/reporting analysis
 * `artifacts/` → models, predictions, logs
 * `app/` → Streamlit application
 * `reports/` → figures, tables, executive summary
@@ -60,8 +60,8 @@ You must follow this structure:
 
 * Do NOT create alternative top-level directories
 * Always reuse existing folders
-* Notebooks are for exploration only
-* All reusable logic must live in `src/`
+* Keep notebooks organized, reproducible, and presentation-ready
+* EDA, modeling, and BI/reporting work should be implemented in notebooks
 * Outputs must be saved under `artifacts/` or `reports/`
 
 ---
@@ -72,11 +72,10 @@ Typical flow:
 
 1. Explore data in notebooks
 2. Identify useful features and preprocessing decisions during EDA
-3. Move reusable logic to `src/`
-4. Train and evaluate models
-5. Save outputs to `artifacts/`
-6. Build a simple app in `app/`
-7. Generate BI-ready outputs in `reports/`
+3. Train and evaluate models in notebooks
+4. Save models, predictions, and logs to `artifacts/`
+5. Build a simple app in `app/`
+6. Generate BI-ready outputs in `reports/`
 
 ---
 
@@ -131,8 +130,8 @@ A task is NOT complete until it meets those conditions.
 
 ## What You Should NOT Do
 
-* Do not mix exploration and production code
-* Do not duplicate logic across notebooks and scripts
+* Do not leave notebooks disorganized or hard to reproduce
+* Do not duplicate logic unnecessarily across notebooks
 * Do not invent results or conclusions
 * Do not ignore missing or inconsistent data
 * Do not overcomplicate models without justification

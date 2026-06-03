@@ -33,7 +33,7 @@ After that, read these files:
 Then propose a concise, structured plan for the EDA task.
 
 Requirements:
-1. Explain what will be done in `notebooks/` vs `src/`
+1. Explain how the EDA notebook will be structured
 2. List the exact files expected to be created or updated
 3. List the expected outputs in `reports/` and `artifacts/`
 4. Call out data quality checks, leakage risks, and candidate feature ideas
