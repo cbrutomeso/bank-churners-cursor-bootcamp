@@ -40,6 +40,7 @@ Tables in `reports/tables/`:
 * `churn_by_segment.csv`
 * `model_metrics_summary.csv`
 * `high_risk_customers.csv`
+* `power_bi_master.csv` — single wide table for Power BI (one row per customer)
 
 Figures in `reports/figures/`:
 
