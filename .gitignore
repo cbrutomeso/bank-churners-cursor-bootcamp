@@ -9,7 +9,6 @@ data/raw/*
 
 data/processed/*
 !data/processed/.gitkeep
-!data/processed/sample_batch_prediction_input.csv
 
 artifacts/models/*
 !artifacts/models/.gitkeep
