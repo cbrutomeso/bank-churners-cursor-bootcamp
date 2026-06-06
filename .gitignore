@@ -20,8 +20,9 @@ artifacts/predictions/*
 artifacts/logs/*
 !artifacts/logs/.gitkeep
 
-reports/figures/*
+reports/
+!reports/executive_summary.md
 !reports/figures/.gitkeep
-
-reports/tables/*
 !reports/tables/.gitkeep
+
+.cursor/plans
