@@ -19,9 +19,14 @@ artifacts/predictions/*
 artifacts/logs/*
 !artifacts/logs/.gitkeep
 
-reports/
+reports/*
 !reports/executive_summary.md
+!reports/figures/
+reports/figures/*
 !reports/figures/.gitkeep
+!reports/tables/
+reports/tables/*
 !reports/tables/.gitkeep
+!reports/tables/power_bi_master.csv
 
 .cursor/plans
